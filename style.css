@@ -72,7 +72,6 @@ h1 {
 
 .hero .container {
     width: 1000px;
-    height: 200px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
