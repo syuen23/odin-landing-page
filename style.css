@@ -175,3 +175,56 @@ h2 {
     font-size: 26px;
     font-weight: bold;
 }
+
+/* Call to Action Styles */
+h3 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.call-to-action p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.call-to-action button {
+    border: 3px solid white;
+    background: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.call-to-action .container {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.inner-call {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
