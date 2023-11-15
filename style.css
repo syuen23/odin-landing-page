@@ -117,7 +117,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    width: 1000px;
     padding: 100px 20px;
 }
 
@@ -146,4 +145,33 @@ h2 {
 .box-description {
     text-align: center;
     width: 150px;
+}
+
+/* Quote Styles */
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    width: 825px;
+    padding: 125px 20px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote .signature {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
 }
